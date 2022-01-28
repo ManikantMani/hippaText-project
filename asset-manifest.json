@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/hippaText-project/static/css/main.8d3e97b7.css",
+    "main.js": "/hippaText-project/static/js/main.a54a8e1e.js",
+    "static/media/background2.svg": "/hippaText-project/static/media/background2.b9074fdc9dc45b77a57c.svg",
+    "static/media/home1.png": "/hippaText-project/static/media/home1.ace99e8c0f3f31b8b288.png",
+    "static/media/contact1.png": "/hippaText-project/static/media/contact1.468ce989aab2deddd095.png",
+    "static/media/group2.png": "/hippaText-project/static/media/group2.6c48268d77ac0c91fd6d.png",
+    "static/media/group1.png": "/hippaText-project/static/media/group1.9f0767e8bb3616ee7dd4.png",
+    "static/media/background1.svg": "/hippaText-project/static/media/background1.5c5e4e19c5b6e5833c73.svg",
+    "index.html": "/hippaText-project/index.html",
+    "main.8d3e97b7.css.map": "/hippaText-project/static/css/main.8d3e97b7.css.map",
+    "main.a54a8e1e.js.map": "/hippaText-project/static/js/main.a54a8e1e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d3e97b7.css",
+    "static/js/main.a54a8e1e.js"
+  ]
+}
