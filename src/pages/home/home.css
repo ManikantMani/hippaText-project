@@ -1,0 +1,234 @@
+.home_main {
+    /* background: url("../images/background1.svg"); */
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: url("../../images/background1.svg"), transparent linear-gradient(180deg, #D5E6FF 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.main  {
+    display: flex;
+    flex-direction: row;
+}
+.container {
+    width: 80vw;
+    height: 50vh;
+    margin-top: 4rem;
+    margin-left: 7%;
+}
+.heading {
+    color: #2078FC;
+    font-size: 24px;
+    font-weight: 500;
+}
+.heading_text {
+    font-size: 54px;
+    color: #021027;
+    align-items: left;
+    font-weight: 900;
+    margin-top: 1.3rem;
+}
+.home_p {
+    color: #67707E;
+    font-size: 20px;
+}
+.home_quote_button {
+    font-size: 14px;
+    color: white;
+    margin-right: 10px;
+    border-radius: 2.063rem;
+    border: none;
+    width: 10rem;
+    height: 3rem;
+    font-size: 0.8rem;
+    background: rgb(84,125,255);
+    background: linear-gradient(90deg, rgba(84,125,255,1) 0%, rgba(2,51,151,1) 61%);
+    transition: 1s;
+}
+.home_quote_button:hover{
+    padding-left: 1.5rem;
+}
+.home_img {
+    height: 40.375rem;
+    width: 40.375rem;
+    margin-top: -3.9rem;
+    margin-right: 3rem;
+}
+
+@media only screen and (max-width: 360px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+    .heading_text {
+        font-size: 40px;
+    }
+    .home_p {
+        font-size: 12px;
+    }
+    .home_quote_button {
+        width: 8rem;
+        height: 2rem;
+        font-size: 0.6;
+    }
+    .home_img {
+        width: 20rem;
+        height: 20rem;
+        margin-top: 2rem;
+    }
+}
+
+@media (min-width:361px) and (max-width: 420px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+    .heading_text {
+        font-size: 40px;
+    }
+    .home_p {
+        font-size: 12px;
+    }
+    .home_quote_button {
+        width: 8rem;
+        height: 2rem;
+        font-size: 0.6;
+    }
+    .home_img {
+        width: 20rem;
+        height: 20rem;
+        margin-top: 2rem;
+    }
+}
+
+@media (min-width:421px) and (max-width: 500px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+    .heading_text {
+        font-size: 43px;
+    }
+    .home_p {
+        font-size: 14px;
+    }
+    .home_quote_button {
+        width: 8rem;
+        height: 2rem;
+        font-size: 0.6;
+    }
+    .home_img {
+        width: 23rem;
+        height: 23rem;
+        margin-top: 2rem;
+        margin-left: 1.5rem;
+    }
+}
+
+
+@media (min-width:501px) and (max-width: 600px){
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+    .heading_text {
+        font-size: 45px;
+    }
+    .home_p {
+        font-size: 15.5px;
+    }
+    .home_quote_button {
+        width: 8.5rem;
+        height: 2.2rem;
+        font-size: 0.65;
+    }
+    .home_img {
+        width: 25rem;
+        height: 25rem;
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+}
+
+@media (min-width: 601px)  and (max-width: 768px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+    .heading {
+        margin-left: 3rem;
+    }
+    .heading_text {
+        font-size: 48.5px;
+        margin-left: 3rem;
+    }
+    .home_p {
+        font-size: 16px;
+        margin-left: 3rem;
+    }
+    .home_quote_button {
+        width: 9rem;
+        height: 2.3rem;
+        font-size: 0.7;
+        margin-left: 3rem;
+    }
+    .home_img {
+        width: 27rem;
+        height: 27rem;
+        margin-top: 2rem;
+        margin-left: 3rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+    .heading {
+        margin-left: 4rem;
+    }
+    .heading_text {
+        font-size: 50px;
+        margin-left: 4rem;
+    }
+    .home_p {
+        font-size: 16px;
+        margin-left: 4rem;
+    }
+    .home_quote_button {
+        width: 9.5rem;
+        height: 2.6rem;
+        font-size: 0.7;
+        margin-left: 4rem;
+    }
+    .home_img {
+        width: 29rem;
+        height: 29rem;
+        margin-top: 2.5rem;
+        margin-left: 4rem;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    .container {
+        width: 70vw;
+        height: 50vh;
+    }
+    .heading {
+        font-size: 20px;
+    }
+    .heading_text {
+        font-size: 45px;
+    }
+    .home_p {
+        font-size: 17px;
+    }
+    .home_img {
+        width: 26rem;
+        height: 26rem;
+    }
+
+}
